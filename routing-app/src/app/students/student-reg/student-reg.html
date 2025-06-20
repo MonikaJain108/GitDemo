@@ -1,0 +1,26 @@
+<form>
+    <div class="mb-3">
+      <label for="sid" class="form-label">Student ID</label>
+      <input type="text" class="form-control" id="sid" name="sid" [(ngModel)]="student.sid"/>
+    </div>
+    <div class="mb-3">
+        <label for="sName" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="sName" name="sName" [(ngModel)]="student.sName"/>
+    </div>
+    <div class="mb-3">
+        <label for="sEmail" class="form-label">Student Email</label>
+        <input type="text" class="form-control" id="sEmail" name="sEmail" [(ngModel)]="student.sEmail"/>
+    </div>
+    <div class="mb-3">
+        <label for="sContact" class="form-label">Student Contact</label>
+        <input type="text" class="form-control" id="sContact" name="sContact" [(ngModel)]="student.sContact"/>
+    </div>
+    <div class="mb-3">
+        <label for="sFee" class="form-label">Student Fee</label>
+        <input type="text" class="form-control" id="sFee" name="sFee"[(ngModel)]="student.sFee"/>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary text-white" (click)="register()">Register Student</button>
+    </div>
+</form>
+
